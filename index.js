@@ -15,7 +15,7 @@ app.use(cors())
 
 app.get('/',(req,res)=>{
     res.send(`<p> Hello Backend E-Commerce App </p> 
-    <a href="http://localhost:3001/products">Go to Products</a>`)
+    <a href="https://mobile-mart-server-api.onrender.com/products">Go to Products</a>`)
 })
 
 app.use(productRouter)
